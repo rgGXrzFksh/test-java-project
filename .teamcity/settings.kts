@@ -45,14 +45,4 @@ object TestJavaBuild01 : BuildType({
             goals = "compile exec:java"
         }
     }
-
-    triggers {
-        vcs {
-        }
-    }
-
-    features {
-        perfmon {
-        }
-    }
 })
